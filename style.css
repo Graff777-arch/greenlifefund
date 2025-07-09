@@ -1,0 +1,43 @@
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f0f9f1;
+  color: #2d4739;
+}
+.hero {
+  background: url('../assets/img/forest.jpg') center/cover no-repeat;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 2rem;
+  text-align: center;
+  color: #fff;
+}
+.overlay h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+.overlay button {
+  background-color: #4caf50;
+  color: white;
+  padding: 1rem 2rem;
+  border: none;
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+.features {
+  padding: 3rem;
+  background-color: #fff;
+  text-align: center;
+}
+footer {
+  background-color: #2d4739;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+}

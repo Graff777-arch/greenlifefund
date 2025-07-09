@@ -1,0 +1,19 @@
+body {
+  font-family: sans-serif;
+  background: linear-gradient(to bottom, #e8f5e9, #a5d6a7);
+  margin: 0;
+  padding: 2rem;
+  text-align: center;
+}
+button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #388e3c;
+}
